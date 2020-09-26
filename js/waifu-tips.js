@@ -270,7 +270,8 @@ window.onload = function () {
         var waifu = $('.waifu');
         //初始位置，默认左上角，与下面的 目标位置 搭配修改
         $(".waifu").css({ 'top': $(window).height(), 'left': 0 });
-        waifu.show()
+        waifu.show();
+        $('.waifu-btn').show();
         //目标位置，默认左下角
         $(".waifu").animate({ top: $(window).height() - 250, left: 0 }, 500);
         var box = waifu[0];
