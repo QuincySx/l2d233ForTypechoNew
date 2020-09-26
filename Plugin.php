@@ -33,7 +33,7 @@ class l2d233_Plugin implements Typecho_Plugin_Interface
     echo '<link rel="stylesheet" href="'.Helper::options()->pluginUrl . '/l2d233/css/waifu.min.css" type="text/css">';
     echo '
     <div class="l2d_xb" data-api="'.Helper::options()->pluginUrl .'/l2d233/">
-      <div class="waifu">
+      <div class="waifu" style="display:none">
           <div class="waifu-tips"></div>
           <canvas id="live2d" width="220" height="250" class="live2d"></canvas>
           <div class="waifu-tool">
